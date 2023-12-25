@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prize Draw Randomizer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="@@CSS_ADDRESS">
+</head>
+<body>
+    <main>
+        <h1>Prize Draw Randomizer</h1>
+        <form id="form-random">
+            <div>
+                <label for="max-number">Total Number</label>
+                <input type="number" id="max-number" required min="2" value="2" step="1">
+            </div>
+            <button type="submit">Draw number</button>
+        </form>
+        <div class="result">The lucky number is: <span id="resultValue"></span>
+        </div>
+    </main>
+    <script src="@@JS_ADDRESS"></script>
+</body>
+</html>
